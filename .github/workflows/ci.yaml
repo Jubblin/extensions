@@ -10,6 +10,7 @@ concurrency:
     branches:
       - main
       - release-*
+      - *
     tags:
       - v*
   pull_request:
