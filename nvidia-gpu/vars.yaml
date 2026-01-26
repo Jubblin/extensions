@@ -1,5 +1,10 @@
 # only update if there's a matching fabric manager version
 # renovate: datasource=github-releases extractVersion=^\d+\.(?<version>\d+\.\d+)$ depName=nvidia/open-gpu-kernel-modules
+NVIDIA_DRIVER_LEGACY_VERSION: 470.256.02
+NVIDIA_PKGS_LEGACY_AMD64_SHA256: d6451862deb695bb0447f3b7cd6268f73e81168c10e2c10597ff3fa01349b1de
+
+# only update if there's a matching fabric manager version
+# renovate: datasource=github-releases extractVersion=^\d+\.(?<version>\d+\.\d+)$ depName=nvidia/open-gpu-kernel-modules
 NVIDIA_DRIVER_LTS_VERSION: 580.126.09
 NVIDIA_PKGS_LTS_ARM64_SHA256: 0adb68085fc0bea62fa3d95ed2569dc741997dbf214f4ea2fbc1e9a21522874f
 NVIDIA_PKGS_LTS_ARM64_SHA512: 3b33e44d12162b244d0d529be1c9444567709354f013a87b9a5bf5fa569a6056ebf00156c7abe7dc1cf3e8e18d66f22f4c7c1c386760d788d40567237c3574cd
