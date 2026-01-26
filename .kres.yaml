@@ -82,6 +82,7 @@ spec:
     - zfs
   additionalTargets:
     nonfree:
+      - nonfree-kmod-nvidia-legacy
       - nonfree-kmod-nvidia-lts
       - nonfree-kmod-nvidia-production
   reproducibleTargetName: reproducibility
@@ -264,9 +265,9 @@ spec:
       - name: grype-scan
         runnerGroup: pkgs
         triggerLabels:
-        - integration/grype
+          - integration/grype
         crons:
-          - '30 7 * * *'
+          - "30 7 * * *"
         artifacts:
           enabled: true
           skipArtifactDownload: true
